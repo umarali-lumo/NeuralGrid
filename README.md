@@ -152,7 +152,12 @@ Details: [docs/getting-started.md](docs/getting-started.md).
 | Higher risk | `OVERLOAD_RISK` region | Shed Low + Auxiliary |
 | Hard limit / E-STOP | Safety override | All relays OFF |
 
-Screenshots: `docs/images/diag-*.png`, `docs/images/anomaly-explorer.png`.
+
+![](docs/images/diag-normal.png)
+
+![](docs/images/diag-shed.png)
+
+![](docs/images/diag-warning.png)
 
 ---
 
