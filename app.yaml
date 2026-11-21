@@ -1,0 +1,6 @@
+name: Neural_Grid_by_Noor
+description: NeuralGrid is a dual-AI edge monitoring and protection system built for the Qualcomm Linux MPU and Arduino UNO Q architecture. It combines a
+ports: []
+bricks:
+- arduino:web_ui: {}
+icon: 💯
