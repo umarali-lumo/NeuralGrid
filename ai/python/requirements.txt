@@ -1,3 +1,0 @@
-# NeuralGrid Edge AI Dependencies
-numpy>=1.21.0
-edge-impulse-linux>=1.0.0
