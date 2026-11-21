@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use NeuralGrid, please cite it as below."
+title: "NeuralGrid: A Dual-Processor Edge AI Framework for Predictive Electrical Load Management and Priority-Aware Control"
+authors:
+  - family-names: Ali
+    given-names: Syed Umar
+  - family-names: Ahmed
+    given-names: Muhammad Sameer
+  - family-names: Fatima
+    given-names: Syeda Noor
+affiliation: "Institute of Industrial Electronics Engineering (IIEE), NED University of Engineering & Technology, Karachi, Pakistan"
+version: "1.0.0"
+date-released: "2026-11-11"
+url: "https://github.com/umarali-lumo/NeuralGrid"
+keywords:
+  - edge AI
+  - predictive load management
+  - Arduino UNO Q
+  - electrical telemetry
+  - anomaly detection
+  - priority-based load shedding
+  - dual-processor
+preferred-citation:
+  type: conference-paper
+  title: "NeuralGrid: A Dual-Processor Edge AI Framework for Predictive Electrical Load Management and Priority-Aware Control"
+  authors:
+    - family-names: Ali
+      given-names: Syed Umar
+    - family-names: Ahmed
+      given-names: Muhammad Sameer
+    - family-names: Fatima
+      given-names: Syeda Noor
+  collection-title: "International Conference on AI and IoT for Engineering (AIIE)"
+  year: 2026

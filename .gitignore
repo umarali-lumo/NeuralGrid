@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build / logs
+*.log
+dist/
+build/
+
+# Large local artefacts (keep model files that ship with the project)
+# Uncomment if you prefer not to track huge binaries in git:
+# ai/python/model.eim
+# python/model.eim
