@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #071018;
+  --panel: #0c1721;
+  --panel2: #101e2a;
+  --border: rgba(255,255,255,0.08);
+  --text: #edf6ff;
+  --muted: #718495;
+  --cyan: #26d9ff;
+  --green: #38e29a;
+  --yellow: #ffd166;
+  --red: #ff5573;
+  --blue: #4d8dff;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(38,217,255,.08), transparent 35%),
+    radial-gradient(circle at 100% 20%, rgba(77,141,255,.06), transparent 30%),
+    var(--bg);
+  color: var(--text);
+  font-family: Inter, Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.topbar {
+  min-height: 90px;
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(7,16,24,.92);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.eyebrow {
+  color: var(--cyan);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: -.5px;
+}
+
+h2, h3, p {
+  margin-top: 0;
+}
+
+.topbar p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.topbar p span {
+  color: var(--cyan);
+  margin: 0 5px;
+}
+
+.connection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.connection b {
+  margin-left: 12px;
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: var(--muted);
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background: var(--yellow);
+  box-shadow: 0 0 12px currentColor;
+}
+
+.dot.on {
+  background: var(--green);
+  color: var(--green);
+}
+
+.dot.off {
+  background: var(--red);
+  color: var(--red);
+}
+
+main {
+  width: min(1500px, calc(100% - 40px));
+  margin: 25px auto 50px;
+}
+
+.card {
+  background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.012)), var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  letter-spacing: .5px;
+}
