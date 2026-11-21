@@ -192,7 +192,7 @@ The prototype is a **testable foundation**, not a finished statistical claim.
 ```bibtex
 @inproceedings{ali2026neuralgrid,
   title={NeuralGrid: A Dual-Processor Edge AI Framework for Predictive Electrical Load Management and Priority-Aware Control},
-  author={Ali, Syed Umar and Ahmed, Muhammad Sameer and Fatima, Syeda Noor},
+  author={Ali, Syed Umar and Ahmed, Syeda Noor Fatima},
   booktitle={International Conference on AI and IoT for Engineering (AIIE)},
   year={2026}
 }
@@ -211,7 +211,6 @@ See [LICENSE](LICENSE). Research and educational use. Third-party components ret
 ## Authors
 
 - **Syed Umar Ali** — [GitHub @umarali-lumo](https://github.com/umarali-lumo)  
-- Muhammad Sameer Ahmed  
 - Syeda Noor Fatima  
 
 IIEE, NED University of Engineering & Technology, Karachi, Pakistan.
